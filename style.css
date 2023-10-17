@@ -11,14 +11,14 @@ blockquote {
 
 blockquote p {
 	padding: 1rem;
-	text-align: justify;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.5rem;
 }
 
 blockquote p::before {
 	content: "\201C";
 	font-size: 2rem;
-	list-style: 1.5rem;
+	line-height: 1.5rem;
 }
 
 blockquote p::after {
